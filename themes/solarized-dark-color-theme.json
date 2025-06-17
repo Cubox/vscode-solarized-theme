@@ -73,7 +73,7 @@
     "textLink.foreground": "#3794ff",
     "editor.background": "#002b36",
     "editor.foreground": "#839496",
-    "editorLineNumber.foreground": "#657b83",
+    "editorLineNumber.foreground": "#586e75",
     "editorCursor.foreground": "#839496",
     "editorCursor.background": "#002b36",
     "editor.selectionBackground": "#268ad25b",
@@ -83,7 +83,7 @@
     "editor.selectionHighlightBorder": "#495F7700",
     "editor.lineHighlightBackground": "#073642",
     "editor.lineHighlightBorder": "#28282800",
-    "editorLineNumber.activeForeground": "#eee8d5",
+    "editorLineNumber.activeForeground": "#839496",
     "editorLink.activeForeground": "#4e94ce",
     "editorIndentGuide.background1": "#657b8324",
     "editorIndentGuide.activeBackground1": "#657b8366",
@@ -261,7 +261,7 @@
       "name": "Comments",
       "scope": ["comment", "comment.block.documentation"],
       "settings": {
-        "foreground": "#657b83"
+        "foreground": "#586e75"
       }
     },
     {
@@ -364,7 +364,7 @@
         "punctuation.definition.tag.end"
       ],
       "settings": {
-        "foreground": "#657b83"
+        "foreground": "#586e75"
       }
     },
     {

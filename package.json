@@ -23,7 +23,7 @@
       {
         "label": "Solarized Dark+",
         "uiTheme": "vs-dark",
-        "path": "./themes/legacy-solarized-dark-color-theme.json"
+        "path": "./themes/solarized-dark-color-theme.json"
       },
       {
         "label": "Solarized Dark+ (High Contrast)",

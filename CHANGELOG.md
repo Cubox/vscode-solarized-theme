@@ -1,8 +1,12 @@
 # Change Log
 
+## 3.0.0
+
+- Create Solarized Dark+ from scratch. The original version is still available as "Solarized Dark+ (Original)"
+
 ## 2.6.0
 
-- Add Solarized Dark+ High Contrasts (completely from scratch)
+- Add Solarized Dark+ High Contrast (completely from scratch)
 
 ## 2.5.0
 

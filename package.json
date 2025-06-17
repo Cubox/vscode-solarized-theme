@@ -36,12 +36,12 @@
         "path": "./themes/legacy-solarized-light-color-theme.json"
       },
       {
-        "label": "Solarized Dark+ Original",
+        "label": "Solarized Dark+ (Original)",
         "uiTheme": "vs-dark",
         "path": "./themes/legacy-solarized-dark-color-theme.json"
       },
       {
-        "label": "Solarized Light+ Original",
+        "label": "Solarized Light+ (Original)",
         "uiTheme": "vs",
         "path": "./themes/legacy-solarized-light-color-theme.json"
       }

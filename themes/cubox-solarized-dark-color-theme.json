@@ -1,4 +1,5 @@
 {
+  "name": "Cubox's Solarized Dark",
   "type": "dark",
   "colors": {
     "errorForeground": "#ffeaea",
@@ -53,7 +54,6 @@
     "tab.border": "#003847",
     "tab.activeForeground": "#d6dbdb",
     "tab.inactiveForeground": "#93a1a1",
-    "editorGroup.background": "#011b23",
     "editorGroupHeader.tabsBackground": "#004052",
     "editorGroup.border": "#00212b",
     "editorGroup.dropBackground": "#2aa19844",
@@ -95,14 +95,17 @@
   "tokenColors": [
     {
       "settings": {
-        "foreground": "#bbbbbbff",
-        "background": "#002b36ff"
+        "foreground": "#bbbbbbff"
       }
     },
     {
-      "scope": ["meta.embedded", "source.groovy.embedded"],
+      "scope": [
+        "meta.embedded",
+        "source.groovy.embedded",
+        "string meta.image.inline.markdown",
+        "variable.legacy.builtin.python"
+      ],
       "settings": {
-        "background": "#002B36",
         "foreground": "#93A1A1"
       }
     },
@@ -137,7 +140,10 @@
     },
     {
       "name": "Variable",
-      "scope": ["variable.language", "variable.other"],
+      "scope": [
+        "variable.language",
+        "variable.other"
+      ],
       "settings": {
         "foreground": "#268BD2"
       }
@@ -159,7 +165,10 @@
     },
     {
       "name": "Class name",
-      "scope": ["entity.name.class", "entity.name.type"],
+      "scope": [
+        "entity.name.class",
+        "entity.name.type"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#CB4B16"
@@ -191,28 +200,40 @@
     },
     {
       "name": "Built-in constant",
-      "scope": ["constant.language", "meta.preprocessor"],
+      "scope": [
+        "constant.language",
+        "meta.preprocessor"
+      ],
       "settings": {
         "foreground": "#B58900"
       }
     },
     {
       "name": "Support.construct",
-      "scope": ["support.function.construct", "keyword.other.new"],
+      "scope": [
+        "support.function.construct",
+        "keyword.other.new"
+      ],
       "settings": {
         "foreground": "#CB4B16"
       }
     },
     {
       "name": "User-defined constant",
-      "scope": ["constant.character", "constant.other"],
+      "scope": [
+        "constant.character",
+        "constant.other"
+      ],
       "settings": {
         "foreground": "#CB4B16"
       }
     },
     {
       "name": "Inherited class",
-      "scope": "entity.other.inherited-class",
+      "scope": [
+        "entity.other.inherited-class",
+        "punctuation.separator.namespace.ruby"
+      ],
       "settings": {
         "foreground": "#6C71C4"
       }
@@ -259,12 +280,18 @@
     },
     {
       "name": "Library constant",
-      "scope": "support.constant",
+      "scope": [
+        "support.constant",
+        "support.variable"
+      ],
       "settings": {}
     },
     {
       "name": "Library class/type",
-      "scope": ["support.type", "support.class"],
+      "scope": [
+        "support.type",
+        "support.class"
+      ],
       "settings": {
         "foreground": "#859900"
       }
@@ -288,9 +315,11 @@
     },
     {
       "name": "diff: header",
-      "scope": ["meta.diff", "meta.diff.header"],
+      "scope": [
+        "meta.diff",
+        "meta.diff.header"
+      ],
       "settings": {
-        "background": "#b58900",
         "fontStyle": "italic",
         "foreground": "#E0EDDD"
       }
@@ -299,7 +328,6 @@
       "name": "diff: deleted",
       "scope": "markup.deleted",
       "settings": {
-        "background": "#eee8d5",
         "fontStyle": "",
         "foreground": "#dc322f"
       }
@@ -308,7 +336,6 @@
       "name": "diff: changed",
       "scope": "markup.changed",
       "settings": {
-        "background": "#eee8d5",
         "fontStyle": "",
         "foreground": "#cb4b16"
       }
@@ -317,7 +344,6 @@
       "name": "diff: inserted",
       "scope": "markup.inserted",
       "settings": {
-        "background": "#eee8d5",
         "foreground": "#219186"
       }
     },
@@ -337,9 +363,32 @@
     },
     {
       "name": "Markup Styling",
-      "scope": ["markup.bold", "markup.italic"],
+      "scope": [
+        "markup.bold",
+        "markup.italic"
+      ],
       "settings": {
         "foreground": "#D33682"
+      }
+    },
+    {
+      "name": "Markup: Strong",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup: Emphasis",
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "markup.strikethrough",
+      "settings": {
+        "fontStyle": "strikethrough"
       }
     },
     {
